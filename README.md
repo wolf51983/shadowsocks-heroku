@@ -46,6 +46,7 @@ heroku 在创建项目的时候可以，通过关联 GitHub 账号，直接部�
 ### 三、设置加密算法和密码
 Setting 页面 ——> Reveal Config Vars，设置参数如下图：
 ![](https://github.com/521xueweihan/shadowsocks-heroku/blob/master/img/3-min.png)
+设置参数PORT，指定端口 [见代码server.js](https://github.com/delayk/shadowsocks-heroku/blob/master/server.js#L47)
 
 **支持的加密算法类型如下：**  
 - rc4
